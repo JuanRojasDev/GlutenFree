@@ -51,13 +51,45 @@
     "espaciocarro espacioformulario"
     ;
 }
+.espaciocarro{
+    background-color: #935115;
+}
 .titproductos{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
-
+.subcarro{
+    color: white;
+    font-size: 20px;
+}
+.imgproducto{
+    width: 100px;
+    height: 100px;
+}
+.precioproducto{
+    color: #FF914D;
+    font-size: 20px;
+}.subprecio{
+    display: flex;
+    align-items: center;
+}
+.imgtrash{
+    height: 50px;
+    width: 50px;
+}
+.product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    color: white;
+}
+.itemproduct{
+    display: flex;
+    align-items: center;
+}
 .piedepagina{
     display: flex;
     justify-content: center;

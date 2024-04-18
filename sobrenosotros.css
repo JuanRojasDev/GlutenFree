@@ -57,7 +57,6 @@
     margin-top: 27.5px;
 }
 .proposito{
-    height: 375px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,15 +64,15 @@
     border-radius: 7%;
     box-shadow: 0 3px 15px #73410c;
 }
-/*.mision{
-    
+.mision{
+    padding: 10px;
 }
 .visiom{
-    
+    padding: 10px;
 }
 .valores{
-    
-}*/
+    padding: 10px;
+}
 .imgproposito{
     height: 150px;
     width: 150px;
