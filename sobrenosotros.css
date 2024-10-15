@@ -1,6 +1,6 @@
 .cuerpo{
     background-color: #f5ebd4;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important; 
 }
 .barradenavegacion{
     display: flex;
@@ -84,7 +84,8 @@
     color: #73410c;
 }
 .parrafo{
-    width: 225px;
+    width: 245px;
+    text-align: justify;
 }
 .organigrama{
     margin-top: 50px;
@@ -98,11 +99,12 @@
     width: 75%;
 }
 .imgorganigrama{
-    height: 400px;
+    height: 420px;
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
+/* Estilos pie de página*/
 .piedepagina{
     background-color: #FFFAEF;
     display: flex;

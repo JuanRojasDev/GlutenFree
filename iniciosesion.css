@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #f5ebd4;
+    background-color: #f5ebd4 !important;
 }
 .login {
     display: flex;
@@ -74,6 +74,6 @@ button:hover {
 .botoncito{
     color: #583209af;
 }
-.botoncito{
+.accion{
     color: #58320988;
 }

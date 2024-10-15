@@ -1,6 +1,6 @@
 .cuerpo{
     background-color: #f5ebd4;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important; 
 }
 .barradenavegacion{
     display: flex;

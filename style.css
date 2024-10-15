@@ -1,6 +1,6 @@
-
-.cuerpo{
-    background-color: #f5ebd4;
+body {
+    font-family: sans-serif;
+    background-color: #f5ebd4 !important;
 }
 .barradenavegacion{
     display: flex;

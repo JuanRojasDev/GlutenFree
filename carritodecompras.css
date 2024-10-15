@@ -1,6 +1,6 @@
 .cuerpo{
     background-color: #f5ebd4;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important; 
 }
 .barradenavegacion{
     display: flex;
@@ -66,13 +66,17 @@
     width: 400px;
     justify-content: space-between;
 }
-
 .pago{
     display: grid;
     grid-template-areas: 
     "espaciocarro espacioformulario"
     ;
 }
+.espacioboton{
+    padding: 20px 10px;
+    margin-bottom: 360px;
+}
+
 .espaciocarro{
     background-color: #935115;
 }
@@ -105,7 +109,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
     color: white;
 }
 .itemproduct{
